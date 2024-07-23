@@ -134,7 +134,7 @@ class BorrowController extends Controller
             'item_name' => $book->name,
             'count' => $borrow->quantity,
             'remaining' => $book->quantity,
-            'admin_name' => $borrow->teacher,
+            'borrower' => $borrow->teacher,
         ]);
         return redirect()->route('borrows');
     }
@@ -152,7 +152,7 @@ class BorrowController extends Controller
             'item_name' => $book->name,
             'count' => $borrow->quantity,
             'remaining' => $book->quantity,
-            'admin_name' => $borrow->teacher,
+            'borrower' => $borrow->teacher,
         ]);
         return redirect()->route('borrows');
     }

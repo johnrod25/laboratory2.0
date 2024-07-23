@@ -18,7 +18,7 @@ class CreateLogtrailsTable extends Migration
             $table->string('item_name')->nullable();
             $table->string('count')->nullable();
             $table->string('remaining')->nullable();
-            $table->string('admin_name')->nullable();
+            $table->string('borrower')->nullable();
             $table->timestamps();
         });
     }
@@ -31,5 +31,6 @@ class CreateLogtrailsTable extends Migration
     public function down()
     {
         Schema::dropIfExists('logtrails');
+
     }
 }

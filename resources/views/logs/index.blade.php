@@ -32,7 +32,7 @@
                                 <td>{{ $log->item_name }}</td>
                                 <td>{{ $log->count }}</td>
                                 <td>{{ $log->remaining }}</td>
-                                <td>{{ $log->admin_name }}</td>
+                                <td>{{ $log->borrower }}</td>
                                 {{-- <td>
                                     @if ($log->status == 'Y')
                                         <span class='badge badge-success'>Successful</span>
