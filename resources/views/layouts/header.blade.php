@@ -249,7 +249,7 @@
                 <li class="nav-item">
                     <a href="{{ route('logtrails') }}" class="nav-link text-white">
                         <i class="nav-icon fas fa-bug"></i>
-                        <p class="text-white">Log Trails</p>
+                        <p class="text-white">Borrow Logs</p>
                     </a>
                 </li>
                 @endif

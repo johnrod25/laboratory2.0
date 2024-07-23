@@ -10,7 +10,7 @@
             <div class="card">               
                 <div class="card-body">
                 <div class="d-flex justify-content-between">
-                    <h3>Item Logs</h3>
+                    <h3>Borrow Logs</h3>
                 </div>
                 <hr class="hr">
                 <table id="example" class="table table-bordered table-striped table-hover">
